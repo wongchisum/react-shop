@@ -1,0 +1,32 @@
+.search-list {
+    margin-top: 18px;
+}
+
+.search-list .search-item {
+    border-top: 1px solid #e8e8e8;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.search-list .search-item:last-child {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.search-list .search-item .count {
+    background-image: url("../../assets/imgs/num-bg.svg");
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    width: 25%;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.search-list .search-item .text {
+    font-size: 16px;
+    color: #fff;
+    padding-left: 16px;
+    flex: 1;
+    font-weight: 600;
+}

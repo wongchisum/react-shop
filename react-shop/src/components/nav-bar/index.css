@@ -1,0 +1,57 @@
+.nav-tip {
+    background-color: rgb(30, 30, 32);
+    padding: 12px 0 ;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: #B23935;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 30px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.nav-bar img {
+    width: 18px;
+    height: 18px;
+}
+
+.nav-bar .left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .left input {
+    background-color: #B23935;
+    border: none;
+    outline: 0;
+    padding: 8px;
+    width: 240px;
+    color: #fff;
+}
+
+.nav-bar .left input::placeholder {
+    color: #fff;
+}
+
+.nav-bar .left .action {
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.nav-bar .right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .right  img{
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    
+}

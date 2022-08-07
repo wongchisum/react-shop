@@ -1,26 +1,20 @@
-/**
- * 首頁
+/*
+ * @Author: wongchisum 
+ * @Date: 2022-08-07 14:31:18 
+ * @Last Modified by: wongchisum
+ * @Last Modified time: 2022-08-07 14:55:59
+ * 
+ * 主頁
  */
-import { useNavigate } from "react-router-dom";
+import {NavBar,MainLayout} from '../../components';
 
 
- /**有沒有權限 */
- const hasAccess = false; 
-
-function Home() {
-    const nav = useNavigate()
-    /**判斷有沒有權限，有權限則跳轉detail，沒有權限彈窗提示 */
-    function handleGoDetail() {
-        if (hasAccess) {
-            nav("/detail")
-        } else {
-            alert("你沒有權限跳轉！")
-        }
-    }
+function Home() {   
     return (
         <div>
-            Home
-            <div onClick={handleGoDetail}>Go Detail</div>
+            <NavBar />
+            <MainLayout />
+            
         </div>
     )
 };
